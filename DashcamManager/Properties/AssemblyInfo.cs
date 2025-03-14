@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("DashcamManager")]
-[assembly: AssemblyDescription("Manage files on your Viofo dashcam")]
+[assembly: AssemblyDescription("Manage recordings on your Viofo A229 dashcam.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Footsen")]
 [assembly: AssemblyProduct("DashcamManager")]
