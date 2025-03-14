@@ -16,7 +16,8 @@ Install the app.
 
 Connect on your home network using the dashcam's "Wi-Fi Station Mode". You need to enable station IP settings in the mobile app first to let the cam connect to your network. Then turn on Wi-Fi Station Mode by pressing and holding the MIC + WiFi buttons together for a few seconds. The dashcam will announce that station mode Wi-Fi is enabled. Pro tip: run an extension cord with a USB charger to your car, and connect your dashcam through that. Then you can play with Station Mode and not have to worry about draining your battery!
 
-scr1 scr2
+scr1 
+scr2
 
 
 Retrieving the list of files and videos is done using this command:
