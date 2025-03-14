@@ -1,34 +1,3 @@
-
-Please write a C# application to manage my dashcam's stored files. I'll manage it using MS Visual Studio 2022. The script can use http calls to query the dashcam. The dashcam's IP is 192.168.5.36.
-
-It needs these 3 functions: 
-List all files sorting by file creating time (command 3015), and let me select which ones to download or delete.
-Download selected files, and save them to d:\localdashcam. show a progress bar while downloading.
-Delete selected files (command 4003).
-
-Here's the command for listing files:
-List all files sorting by file creating time. This command only is executed in playback mode only.
-Command: http://192.168.5.36/?custom=1&cmd=3015
-Parameter: Null
-
-Here's the command to delete a file:
-Command: http://192.168.5.36/?custom=1&cmd=4003&str=[path to mp4]
-Parameter: string format would be the same as file path
-
-
-Jesse,
-
-The Cuba doc says that I shouldn't bring any personal electronic items. I'm concerned about being semi-offline for 2.5 months, considering that many of my home accounts are secured with Google Authenticator and my main personal email is through a Microsoft work subscription (chriscorlett.com domain), which I don't think will play nice with OpenNet.  
-
-What do people who are posted there do? I can't imagine that they forego electronics for a full tour. Maybe there's a way to use my laptop at the embassy, or agree to carry it with me everywhere I go? Or I could buy a cheap laptop and plan to reimage it when I depart (that was a recommended approach when I posted in Beijing).
-
-Is there anyone I can ask for more information about this?
-
-Thanks,
-Chris
-
-
-
 This is an application that lets you manage your Viofo dashcam's video files. I developed it for use with my A229 Pro dashcam.
 
 Features:
